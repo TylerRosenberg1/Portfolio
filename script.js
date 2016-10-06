@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  $('#fullpage').fullpage();
+  $('#fullpage').fullpage({
+    scrollBar: true
+  });
 
   $('#section-one h1').fadeIn({
     duration: 2000
