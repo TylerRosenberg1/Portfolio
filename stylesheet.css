@@ -1,0 +1,146 @@
+#fullpage {
+  text-align: center;
+}
+
+/*************************
+SECTION ONE
+*************************/
+
+#section-one {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#section-one h1 {
+  display: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5em;
+  font-weight: 300;
+  color: rgba(59, 59, 59, 0.80);
+  margin-bottom: 0;
+}
+
+#section-one p {
+  display: none;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: rgba(59, 59, 59, 0.45);
+  margin-top: 0;
+}
+
+/*************************
+SECTION TWO
+*************************/
+
+#section-two {
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#section-two h3 {
+  color: rgba(83, 83, 83, 0.65);
+  font-weight: 300;
+  margin-bottom: 5em;
+}
+
+#section-two h6 {
+  color: rgba(62, 62, 62, 0.89);
+  font-weight: 700;
+}
+
+/*************************
+SECTION THREE
+*************************/
+#section-three {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#section-three h1 {
+  font-weight: 800;
+  font-size: 4em;
+  color: rgba(71, 71, 71, 0.77);
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 0;
+}
+
+#section-three p {
+  color: rgb(8, 118, 208);
+  font-weight: 300;
+  margin-bottom: 8em;
+}
+
+#section-three h6 {
+  color: rgba(62, 62, 62, 0.89);
+  font-weight: 300;
+}
+
+
+/*************************
+SECTION FOUR
+*************************/
+#section-four {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#section-four h1 {
+  color: rgb(96, 228, 208);
+  font-size: 6em;
+  margin-bottom: 0;
+  font-family: 'baloo bhai'
+}
+
+#section-four p {
+  color: rgba(59, 59, 59, 0.95);
+  font-weight: 500;
+  margin-bottom: 8em;
+}
+
+#section-four h6 {
+  color: rgba(62, 62, 62, 0.89);
+  font-weight: 300;
+}
+
+/*************************
+ADDITIONAL STYLES
+*************************/
+
+.red-note {
+  font-size: 1.4em;
+  color: rgb(226, 27, 57);
+  font-style: italic;
+}
+
+.blue-note {
+  font-size: 1.4em;
+  color: rgb(16, 186, 209);
+  font-weight: 500;
+}
+
+.green-note {
+  font-size: 2em;
+  color: rgb(6, 214, 133);
+}
+
+/*************************
+MEDIA QUERIES
+*************************/
+
+@media (min-width: 800px) {
+  #section-one h1 {
+    font-size: 6em;
+  }
+
+  #section-two h3 {
+    font-size: 2.5em;
+    line-height: 50px;
+  }
+
+  p {
+    font-size: 2em;
+  }
+
+}
