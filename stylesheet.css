@@ -33,6 +33,12 @@ SECTION ONE
   margin-top: 0;
 }
 
+#section-one h6 {
+  color: rgba(62, 62, 62, 0.89);
+  font-weight: 700;
+  margin-top: 3em;
+}
+
 /*************************
 SECTION TWO
 *************************/
