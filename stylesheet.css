@@ -39,6 +39,15 @@ SECTION ONE
   margin-top: 3em;
 }
 
+#profile-photo {
+  display: none;
+  max-width: 40%;
+  margin: 0 auto;
+  border: 5px solid rgba(70, 70, 70, 0.10);
+  border-radius: 5%;
+
+}
+
 /*************************
 SECTION TWO
 *************************/
@@ -140,6 +149,11 @@ MEDIA QUERIES
 *************************/
 
 @media (min-width: 800px) {
+
+  #profile-photo {
+    max-width: 20%;
+  }
+  
   #section-one h1 {
     font-size: 6em;
   }
