@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*************************
 SECTION ONE
 *************************/
