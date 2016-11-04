@@ -9,6 +9,7 @@ a:focus {
   color: inherit;
 }
 
+
 /*************************
 SECTION ONE
 *************************/
@@ -34,6 +35,21 @@ SECTION ONE
   font-style: italic;
   color: rgba(59, 59, 59, 0.45);
   margin-top: 0;
+}
+
+#section-one h6 {
+  color: rgba(62, 62, 62, 0.89);
+  font-weight: 700;
+  margin-top: 3em;
+}
+
+#profile-photo {
+  display: none;
+  max-width: 40%;
+  margin: 0 auto;
+  border: 5px solid rgba(70, 70, 70, 0.10);
+  border-radius: 5%;
+
 }
 
 /*************************
@@ -137,6 +153,11 @@ MEDIA QUERIES
 *************************/
 
 @media (min-width: 800px) {
+
+  #profile-photo {
+    max-width: 20%;
+  }
+
   #section-one h1 {
     font-size: 6em;
   }

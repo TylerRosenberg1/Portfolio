@@ -10,4 +10,8 @@ $(document).ready(function() {
   $('#section-one p').fadeIn({
     duration: 3000
   });
+
+  $('#profile-photo').fadeIn({
+    duration: 3000
+  });
 });
